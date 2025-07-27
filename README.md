@@ -26,7 +26,7 @@ estimate influence spread.
 ./IPMAX -dataset=<dataset root> -R=<number of RR sets> -k=<number of seeds (percentage of number of nodes)> -theta=<persistence threshold> -alpha=<influence threshold> -alg=<RG/LR>
 ```
 
-*[2] Christian Borgs, Michael Brautbar, Jennifer Chayes, and Brendan Lucier. 2014. Maximizing social influence in nearly optimal time. In Proceedings of the twenty-fifth annual ACM-SIAM symposium on Discrete algorithms. SIAM, 946–957.
+\*[2] Christian Borgs, Michael Brautbar, Jennifer Chayes, and Brendan Lucier. 2014. Maximizing social influence in nearly optimal time. In Proceedings of the twenty-fifth annual ACM-SIAM symposium on Discrete algorithms. SIAM, 946–957.
 
 
 2. RevG+, LRep+: ReverseGreedy and LazyReplace algorithms that employ the influence spread computation method proposed in this paper.
