@@ -15,6 +15,8 @@ All the datasets are available on SNAP [1].
 
 *[1] Jure Leskovec and Andrej Krevl. 2014. SNAP Datasets: Stanford large network dataset collection. http://snap.stanford.edu/data.*
 
+*Note:* Due to memory constraints, we only retain the first 30% of snapshots for WT and the first 10% for SO.
+
 ### Algorithms
 
 All methods are implemented in C++ and executed on a server with Intel(R) Core(TM) 3.70GHz CPU and 128GB of RAM.
@@ -26,7 +28,7 @@ estimate influence spread.
 ./IPMAX -dataset=<dataset root> -R=<number of RR sets> -k=<number of seeds (percentage of number of nodes)> -theta=<persistence threshold> -alpha=<influence threshold> -alg=<RG/LR>
 ```
 
-[2] Christian Borgs, Michael Brautbar, Jennifer Chayes, and Brendan Lucier. 2014. Maximizing social influence in nearly optimal time. In Proceedings of the twenty-fifth annual ACM-SIAM symposium on Discrete algorithms. SIAM, 946–957.
+*[2] Christian Borgs, Michael Brautbar, Jennifer Chayes, and Brendan Lucier. 2014. Maximizing social influence in nearly optimal time. In Proceedings of the twenty-fifth annual ACM-SIAM symposium on Discrete algorithms. SIAM, 946–957.*
 
 
 2. RevG+, LRep+: ReverseGreedy and LazyReplace algorithms that employ the influence spread computation method proposed in this paper.
