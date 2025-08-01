@@ -15,7 +15,6 @@ All the datasets are available on SNAP [1].
 
 *[1] Jure Leskovec and Andrej Krevl. 2014. SNAP Datasets: Stanford large network dataset collection. http://snap.stanford.edu/data.*
 
-*Note:* Due to memory constraints, we only retain the first 30% of snapshots for WT and the first 10% for SO.
 
 ### Algorithms
 
