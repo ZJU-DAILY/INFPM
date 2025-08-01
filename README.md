@@ -39,7 +39,7 @@ estimate influence spread.
 3. WRG, WLR: ReverseGreedy and LazyReplace algorithms that employ PssW to compute window-based influence persistence.
 
 ```shell
-./IPMAX -dataset=<dataset root> -R=<number of RR sets> -W=<window size> -k=<number of seeds (percentage of number of nodes)> -theta=<persistence threshold> -alpha=<influence threshold> -alg=<RG/LR>
+./IPMAX -dataset=<dataset root> -R=<number of RR sets> -W=<window size> -k=<number of seeds (percentage of number of nodes)> -theta=<persistence threshold> -alpha=<influence threshold> -alg=<WRG/WLR>
 ```
 
 
